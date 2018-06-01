@@ -171,18 +171,38 @@ $toyota = new Car();
 $toyota->setModel('toyota')->setColor('red');
 echo 'Машина. Модель - ' . $toyota->getModel() . ', цена - ' . $toyota->getPrice() . ', цвет - ' . $toyota->getColor() . '<br />';
 
-$tv = new TV();
-$tv->setModel('lg')->setDiagonal('45');
-echo 'Телевизор. Модель - ' . $tv->getModel() . ', цена - ' . $tv->getPrice() . ', диагональ - ' . $tv->getDiagonal() . '<br />' ;
+$audi = new Car();
+$audi->setModel('audi')->setColor('black');
+echo 'Машина. Модель - ' . $audi->getModel() . ', цена - ' . $audi->getPrice() . ', цвет - ' . $audi->getColor() . '<br />';
 
-$pen = new BallPen();
-$pen->setPrice('50')->setColor('black');
-echo 'Ручка. Цена - ' . $pen->getPrice() . ', цвет - ' . $pen->getColor() . '<br />' ;
+$lg = new TV();
+$lg->setModel('lg')->setDiagonal('45');
+echo 'Телевизор. Модель - ' . $lg->getModel() . ', цена - ' . $lg->getPrice() . ', диагональ - ' . $lg->getDiagonal() . '<br />' ;
 
-$duck = new Duck();
-$duck->setPrice('500')->setNumber('10');
-echo 'Утка. Цена - ' . $duck->getPrice() . ', количество - ' . $duck->getNumber() . '<br />' ;
+$samsung = new TV();
+$samsung->setModel('samsung')->setDiagonal('42');
+echo 'Телевизор. Модель - ' . $samsung->getModel() . ', цена - ' . $samsung->getPrice() . ', диагональ - ' . $samsung->getDiagonal() . '<br />' ;
 
-$product = new Product();
-$product->setName('Хлеб');
-echo 'Продукт. Название - ' . $product->getName() . ', цена - ' . $product->getPrice() . '<br />' ;
+$pen1 = new BallPen();
+$pen1->setPrice('30')->setColor('blue');
+echo 'Ручка. Цена - ' . $pen1->getPrice() . ', цвет - ' . $pen1->getColor() . '<br />' ;
+
+$pen2 = new BallPen();
+$pen2->setPrice('50')->setColor('black');
+echo 'Ручка. Цена - ' . $pen2->getPrice() . ', цвет - ' . $pen2->getColor() . '<br />' ;
+
+$duck1 = new Duck();
+$duck1->setPrice('500')->setNumber('10');
+echo 'Утка. Цена - ' . $duck1->getPrice() . ', количество - ' . $duck1->getNumber() . '<br />' ;
+
+$duck2 = new Duck();
+$duck2->setPrice('1000')->setNumber('7');
+echo 'Утка. Цена - ' . $duck2->getPrice() . ', количество - ' . $duck2->getNumber() . '<br />' ;
+
+$bread = new Product();
+$bread->setName('Хлеб');
+echo 'Продукт. Название - ' . $bread->getName() . ', цена - ' . $bread->getPrice() . '<br />' ;
+
+$milk = new Product();
+$milk->setName('Молоко');
+echo 'Продукт. Название - ' . $milk->getName() . ', цена - ' . $milk->getPrice() . '<br />' ;
